@@ -46,12 +46,9 @@ function App() {
             <h1 className='text-lg font-bold'>Dashboard</h1>
           </div>
 
-          {/* Content */}
-          {/* <main className='w-full overflow-x-auto overflow-y-auto bg-gray-50 p-4'> */}
           <Routes>
             <Route path='/' element={<Dashboard />} />
           </Routes>
-          {/* </main> */}
         </div>
       </div>
     </SidebarProvider>
